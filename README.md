@@ -2,7 +2,7 @@
 
 [![Github All Releases](https://img.shields.io/github/downloads/vipzhicheng-starter/logseq-plugin-starter-vite/total.svg)](https://github.com/vipzhicheng-starter/logseq-plugin-starter-vite/releases)
 
-A Logseq plugin starter based on vite.
+A Logseq plugin starter based on vite and tailwindcss.
 
 ## What's in it.
 
