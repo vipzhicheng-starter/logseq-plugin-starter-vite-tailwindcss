@@ -20,7 +20,7 @@
     "vite-plugin-logseq": "^1.1.2"
   },
   "dependencies": {
-    "@logseq/libs": "^0.0.10",
+    "@logseq/libs": "^0.0.12",
     "vue": "^3.2.45"
   },
   "logseq": {
