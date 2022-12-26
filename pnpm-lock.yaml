@@ -1,27 +1,27 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@logseq/libs': ^0.0.12
+  '@logseq/libs': ^0.0.14
   '@vitejs/plugin-vue': ^4.0.0
   autoprefixer: ^10.4.13
   postcss: ^8.4.20
   tailwindcss: ^3.2.4
   typescript: ^4.9.4
-  vite: ^4.0.1
+  vite: ^4.0.3
   vite-plugin-logseq: ^1.1.2
   vue: ^3.2.45
 
 dependencies:
-  '@logseq/libs': 0.0.12
+  '@logseq/libs': 0.0.14
   vue: 3.2.45
 
 devDependencies:
-  '@vitejs/plugin-vue': 4.0.0_vite@4.0.1+vue@3.2.45
+  '@vitejs/plugin-vue': 4.0.0_vite@4.0.3+vue@3.2.45
   autoprefixer: 10.4.13_postcss@8.4.20
   postcss: 8.4.20
   tailwindcss: 3.2.4_postcss@8.4.20
   typescript: 4.9.4
-  vite: 4.0.1
+  vite: 4.0.3
   vite-plugin-logseq: 1.1.2
 
 packages:
@@ -247,8 +247,8 @@ packages:
     dev: true
     optional: true
 
-  /@logseq/libs/0.0.12:
-    resolution: {integrity: sha512-Efcb0pUrQUehCMS3qviyd5+g7kBptLM3geXvT07FOdzKsp9nbYT4ge7pMGZnnmzE9CPUTN3KLr6rhkQL2RM92A==}
+  /@logseq/libs/0.0.14:
+    resolution: {integrity: sha512-QcNeVxb4LIvV4Tid0ABZXV7fxYdZHynzLlukSk6Ydkuus+hBzLcjfK15nzybIRbiV7ANqSgTooDZkV/E4WP57Q==}
     dependencies:
       csstype: 3.1.0
       debug: 4.3.4
@@ -283,14 +283,14 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@vitejs/plugin-vue/4.0.0_vite@4.0.1+vue@3.2.45:
+  /@vitejs/plugin-vue/4.0.0_vite@4.0.3+vue@3.2.45:
     resolution: {integrity: sha512-e0X4jErIxAB5oLtDqbHvHpJe/uWNkdpYV83AOG2xo2tEVSzCzewgJMtREZM30wXnM5ls90hxiOtAuVU6H5JgbA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.0.1
+      vite: 4.0.3
       vue: 3.2.45
     dev: true
 
@@ -1000,8 +1000,8 @@ packages:
       magic-string: 0.26.1
     dev: true
 
-  /vite/4.0.1:
-    resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
+  /vite/4.0.3:
+    resolution: {integrity: sha512-HvuNv1RdE7deIfQb8mPk51UKjqptO/4RXZ5yXSAvurd5xOckwS/gg8h9Tky3uSbnjYTgUm0hVCet1cyhKd73ZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
