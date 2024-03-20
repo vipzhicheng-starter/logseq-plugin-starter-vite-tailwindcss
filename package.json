@@ -4,24 +4,24 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build && cp icon.png package.json LICENSE dist/"
+    "dev": "VITE_CJS_IGNORE_WARNING=true vite dev",
+    "build": "VITE_CJS_IGNORE_WARNING=true vite build && cp icon.png package.json LICENSE dist/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.1.0",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.1",
-    "typescript": "^5.0.3",
-    "vite": "^4.2.1",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.37",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6",
     "vite-plugin-logseq": "^1.1.2"
   },
   "dependencies": {
-    "@logseq/libs": "^0.0.14",
-    "vue": "^3.2.47"
+    "@logseq/libs": "^0.0.17",
+    "vue": "^3.4.21"
   },
   "logseq": {
     "id": "logseq-plugin-starter-vite-tailwindcss",
