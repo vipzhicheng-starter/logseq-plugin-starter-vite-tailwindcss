@@ -1,13 +1,13 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite'
 
-import vue from "@vitejs/plugin-vue";
-import logseqPlugin from "vite-plugin-logseq";
+import vue from '@vitejs/plugin-vue'
+import logseqPlugin from 'vite-plugin-logseq'
 
 export default defineConfig({
-  base: "./",
+  base: './',
   build: {
-    target: "esnext",
-    minify: "esbuild",
+    target: 'esnext',
+    minify: 'esbuild',
   },
   plugins: [vue(), logseqPlugin()],
-});
+})

@@ -1,14 +1,13 @@
-import '@logseq/libs';
+import '@logseq/libs'
 import { createApp } from 'vue'
 import App from './App.vue'
 import './style.css'
 
 function createModel() {
-
   return {
     openModal() {
-      logseq.showMainUI();
-    }
+      logseq.showMainUI()
+    },
   }
 }
 
@@ -29,7 +28,7 @@ const main = async () => {
         P
       </a>
     `,
-  });
+  })
 
   logseq.App.registerUIItem('toolbar', {
     key: 'logseq-plugin-starter-vite-tailwindcss-toolbar',
@@ -41,10 +40,8 @@ const main = async () => {
   })
 
   document.addEventListener('click', (e) => {
-    logseq.hideMainUI();
+    logseq.hideMainUI()
   })
-
 }
 
-
-logseq.ready().then(main).catch(console.error);
+logseq.ready().then(main).catch(console.error)

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const msg = "hello world";
+const msg = 'hello world'
 </script>
 
 <template>
